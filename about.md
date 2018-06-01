@@ -4,12 +4,16 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I'm Son. I'm working on Engineering Software Developer for 2 years. 
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+I graduated the University of technology in HoChiMinh, Vietnam. This main purpose webpage is saving all my project and knowlegde about software development. 
+
+Currently, I working on Embedded Software Developer on cameraIp. The main language program Im using that is C, C/C++, LUA, python and bash script on linux. OpenWRT, MSP430FR, .. is the main thing I'm doing on.
+
+Especially, The IoT product's really excited, I did some programe on KITs of TI, Beagle Bone, ST and so on. 
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[thanhson93hcm@gmail.com](mailto:thanhson93hcm@gmail.com)
