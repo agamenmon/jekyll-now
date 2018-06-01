@@ -16,5 +16,5 @@ permalink: /about/
 
 ### Contact me
 
-[thanhson93hcm@gmail.com](mailto:thanhson93hcm@gmail.com)
-[+84 964 235 129](phoneto:+84964235129)
+ - [thanhson93hcm@gmail.com](mailto:thanhson93hcm@gmail.com) 
+ - [+84 964 235 129](phoneto:+84964235129)
