@@ -11,13 +11,13 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-remote_theme             : "agamenmon/agamenmon.github.com"
+remote_theme             : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "default"
 
 # Site Settings
 locale                   : "en-US"
 title                    : "Engineering Software Developers"
-title_separator          : " "
+title_separator          : "-"
 name                     : "Nguyen Thanh Son"
 description              : "An amazing website."
 url                      : "https://agamenmon.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
