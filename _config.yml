@@ -11,19 +11,19 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
+remote_theme             : "agamenmon/agamenmon.github.com"
 minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "default"
 
 # Site Settings
 locale                   : "en-US"
 title                    : "Engineering Software Developers"
-title_separator          : "-"
+title_separator          : " "
 name                     : "Nguyen Thanh Son"
 description              : "An amazing website."
 url                      : "https://agamenmon.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/blog" # the subpath of your site, e.g. "/blog"
 repository               : "agamenmon/agamenmon.github.com" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : "/assets/images/unsplash-gallery-image-2.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -58,28 +58,28 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia, google
+search                   : true # true, false (default)
+search_full_content      : true # true, false (default)
+search_provider          : google # lunr (default), algolia, google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
   search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
   powered_by             : # true (default), false
 google:
-  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
-  instant_search         : # false (default), true
+  search_engine_id       : 011926999158156621199:ed95tg0cjwq
+  instant_search         : true # false (default), true
 # SEO Related
-google_site_verification :
+google_site_verification : 
 bing_site_verification   :
 yandex_site_verification :
 naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : 
 facebook:
-  username               :
+  username               : &facebook "thanhSon"
   app_id                 :
   publisher              :
 og_image                 : # Open Graph/Twitter default site image
@@ -89,7 +89,7 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-
+    - "https://facebook.com/agamenmon"
 # Analytics
 analytics:
   provider               : false # false (default), "google", "google-universal", "custom"
@@ -101,7 +101,7 @@ analytics:
 # Site Author
 author:
   name             : "Nguyen Thanh Son"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/avatar.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an software developers."
   location         : "HCM city"
   email            : "thanhson93hcm@gmail.com"
@@ -260,7 +260,7 @@ compress_html:
 defaults:
   # _posts
   - scope:
-      path: "_post"
+      path: "_posts"
       type: posts
     values:
       layout: single
