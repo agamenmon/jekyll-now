@@ -1,10 +1,12 @@
 # main links
 main:
-  - title: "About"
-    url: https://agamenmon.github.io/agamenmon.github.com/about.md
-  - title: "Posts"
-    url: /_posts/
-  #- title: "Collections"
-  #  url: /collection-archive/
-  #- title: "Sitemap"
-  #  url: /sitemap/
+  #- title: "Quick-Start Guide"
+  #  url: https://agamenmon.github.io/minimal-mistakes/docs/quick-start-guide/
+   - title: "About"
+     url: https://agamenmon.github.io/agamenmon.github.com/about/
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
